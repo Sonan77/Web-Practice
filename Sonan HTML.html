@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            코코아톡!!
+        </title>
+        <meta charset="utf-8">
+    </head>
+
+
+    <body>
+        <header><h1>Create An Account</h1></header>
+
+        <form>
+            <label for="First name">First name</label>
+            <input placeholder="First name" type="text" id="First name" required><br>
+            <label for="Last name">Last name</label>
+            <input placeholder="Last Name" type="text" id="Last name" required><br>
+       
+            <label for="Email">Email</label>
+            <input placeholder="Email" type="email" id="Email" required /><br>
+      
+            <label for="User name">User name</label>
+            <input placeholder="Username" type="text" id="User name" required /><br>
+      
+            <label for="Password">Password</label>
+            <input placeholder="Password" type="password" minlength="10" id="Password" required /><br>
+       
+            <label for="Birth date">Birth date</label>
+            <input placeholder="yyyy/mm/dd" type="date" id="Birth date" required /><br>
+      
+            <label for="How happy are you?">How happy are you?</label>
+            <input type="range" list="tickmarks" id="How happy are you?" required>
+            <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+            </datalist><br>
+       
+           <label for="What is your fav.color?">What is your fav.color?</label>
+            <input type="color" id="What is your fav.color?" required/><br>
+        
+            <input type="submit" value="Create Account" />
+         </form>
+      
+    </body>
+
+
+</html>
+
